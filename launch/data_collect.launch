@@ -1,0 +1,5 @@
+<launch>
+    <node name="data_collect" pkg="ddos_msf_localizer" type="data_collect" output="screen">
+        <param name="file_path" value="/home/mec/Desktop/Lin/plot_postion/0609_tunnel_attacked_sensor_with_code.csv"/>
+    </node>
+</launch>
